@@ -1,0 +1,28 @@
+<meta charset="utf-8">
+<script>
+
+function my_func(a, b, sign) {
+	switch (sign){
+		case '+':
+			return a + b;
+			break;
+		case '-':
+			return a - b;
+			break;
+		case '/':
+			return a / b;
+			break;
+		case '*':
+			return a * b;
+			break;}
+	}
+
+a  = +prompt('Введите первое число: ')
+b  = +prompt('Введите второе число: ')
+sign = prompt('Введите арифметический оператор: ')
+
+result = my_func(a, b, sign)
+
+alert(result)
+
+</script>
